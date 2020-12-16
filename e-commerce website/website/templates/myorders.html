@@ -1,0 +1,28 @@
+{% extends 'Home.html' %}
+
+{% block content %}
+
+<script>
+    document.querySelector('#count').innerHTML=count;
+</script>
+
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1"><h1>Your Orders</h1></span>
+</nav>
+
+<div>
+    <ul>
+        <li>
+             <h2 id="count">Laptop</h2>
+        </li>
+        <li>
+            <h2>Levis Jeans</h2>
+        </li>
+        <li>
+           <h2> Lg refirigrator</h2>
+        </li>
+    </ul>
+    
+</div>
+
+{% endblock  %}
